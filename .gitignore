@@ -1,0 +1,24 @@
+# Rust build output
+generator/target/
+
+# Generated debug SVGs from dump_coil_svg
+generator/svg_out/
+
+# KiCad automatic backups and caches
+coil-generator-backups/
+*-backups/
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-bak
+
+# KiCad per-user local settings (open layers, view state)
+*.kicad_prl
+
+# Editor / OS cruft
+*~
+*.swp
+.DS_Store
